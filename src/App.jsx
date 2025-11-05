@@ -14,10 +14,12 @@ function App() {
         </header>
 
        <img
-  src="/Akeel-porfile.jpg"
+  src="/Akeel-Portfolio.jpg"
   alt="Mohammad Akeel"
   className="w-40 h-40 mx-auto rounded-full shadow-lg object-cover border-4 border-blue-500"
 />
+
+  
 
 
 
