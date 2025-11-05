@@ -10,7 +10,17 @@ function App() {
           <p className="text-gray-600 mt-2">
             B.Tech Student at Lloyd Institute of Engineering & Technology • Passionate Developer
           </p>
+
         </header>
+
+       <img
+  src="/Akeel-porfile.jpg"
+  alt="Mohammad Akeel"
+  className="w-40 h-40 mx-auto rounded-full shadow-lg object-cover border-4 border-blue-500"
+/>
+
+
+
 
         <section className="mb-12">
           <h3 className="text-2xl font-semibold mb-4">About Me</h3>
