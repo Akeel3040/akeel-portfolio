@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-
 import { useState, useEffect } from "react";
 
 function App() {
