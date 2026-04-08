@@ -50,7 +50,7 @@ function App() {
         </section>
 
         <div className="flex justify-center gap-6 mt-4">
-          {/* <a href="mailto:akeelkhan3499@gmail.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">📩 Email</a> */}
+          <a href="mailto:akeelkhan3499@gmail.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">📩 Email</a>
           <a href="https://www.linkedin.com/in/akeel-khan-699140306" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">🔗 LinkedIn</a>
           <a href="https://wa.me/917983717510" target="_blank" rel="noopener noreferrer" className="text-green-600 dark:text-green-400 hover:underline">💬 WhatsApp</a>
         </div>
@@ -59,7 +59,7 @@ function App() {
         <section className="mt-16 p-6 rounded-lg border bg-gray-50 dark:bg-gray-800 transition-colors">
           <h3 className="text-2xl font-semibold mb-4 text-cyan-500 dark:text-cyan-400">About Me</h3>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
-            Hi, I’m <span className="font-medium text-blue-600 dark:text-blue-400">Akeel</span> — a passionate developer focused on crafting <span className="font-semibold text-purple-500 dark:text-purple-400">clean, efficient, and user-friendly digital products</span>. Skilled in <span className="text-green-600 dark:text-green-400 font-medium">Java, C++, Flutter, React</span>, and <span className="text-yellow-500 dark:text-yellow-400 font-medium">AI technologies</span>, I aim to create <span className="text-pink-500 dark:text-pink-400 font-semibold">smarter, scalable, and aesthetic solutions</span>.
+            Hi, I’m <span className="font-medium text-blue-600 dark:text-blue-400">Akeel</span> — a passionate developer focused on crafting <span className="font-semibold text-purple-500 dark:text-purple-400">clean, efficient, and user-friendly digital products</span>. Skilled in <span className="text-green-600 dark:text-green-400 font-medium">Java, MERN Stack, MS Excel , React</span>, and <span className="text-yellow-500 dark:text-yellow-400 font-medium">AI technologies</span>, I aim to create <span className="text-pink-500 dark:text-pink-400 font-semibold">smarter, scalable, and aesthetic solutions</span>.
           </p>
         </section>
 
@@ -95,7 +95,7 @@ function App() {
       Python
     </li>
     <li className="p-4 border border-gray-300 dark:border-gray-600 rounded-lg text-center bg-white dark:bg-gray-800 shadow-md hover:shadow-xl hover:scale-105 hover:bg-cyan-50 dark:hover:bg-cyan-900/20 hover:border-cyan-400 hover:ring-2 hover:ring-cyan-400/50 transition-all duration-300 ease-in-out cursor-pointer">
-      Science
+       Data Science
     </li>
     <li className="p-4 border border-gray-300 dark:border-gray-600 rounded-lg text-center bg-white dark:bg-gray-800 shadow-md hover:shadow-xl hover:scale-105 hover:bg-cyan-50 dark:hover:bg-cyan-900/20 hover:border-cyan-400 hover:ring-2 hover:ring-cyan-400/50 transition-all duration-300 ease-in-out cursor-pointer">
       CSS
@@ -118,7 +118,7 @@ function App() {
           <h3 className="text-2xl font-semibold mb-4 text-cyan-500 dark:text-cyan-400">Projects</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-4 border rounded-lg bg-white dark:bg-gray-700 hover:shadow-lg transition">
-              <h4 className="font-medium text-purple-600 dark:text-purple-400">Fraud Detection System</h4>
+              <h4 className="font-medium text-purple-600 dark:text-purple-400">Video AI Generator</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Machine Learning based fraud detection using Python.</p>
             </div>
             <div className="p-4 border rounded-lg bg-white dark:bg-gray-700 hover:shadow-lg transition">
