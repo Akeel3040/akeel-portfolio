@@ -31,9 +31,9 @@ function App() {
         {/* Hero Section */}
         <section className="mt-12 text-center">
           <img
-            src="public/Akeel-Portfolio.jpg" // Public folder se load karo; agar file nahi hai, to placeholder use karo
-            alt="Mohammad Akeel"
-            className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-cyan-500 dark:border-cyan-400 shadow-lg"
+               src="/Akeel-Portfolio.jpg"
+               alt="Mohammad Akeel"
+               className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-cyan-500 dark:border-cyan-400 shadow-lg"
           />
           <h2 className="text-3xl font-semibold mt-4 text-purple-600 dark:text-purple-400">Data Science Enthusiast</h2>
           <p className="mt-2 text-gray-600 dark:text-gray-300">
