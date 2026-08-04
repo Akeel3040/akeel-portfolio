@@ -3,7 +3,7 @@ import { skills } from "../data/portfolio";
 
 export default function Skills() {
   return (
-    <Section id="skills" className="py-20 bg-slate-50 dark:bg-white/[0.02]">
+    <Section id="skills" className="py-20 bg-blue-50 dark:bg-white/[0.02]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <SectionHeading
           eyebrow="What I work with"

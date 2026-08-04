@@ -81,7 +81,7 @@ export default function VoiceIntro() {
         type="button"
         onClick={toggleSpeech}
         aria-pressed={speaking}
-        className={`group inline-flex items-center gap-3 rounded-xl px-6 py-3 font-semibold shadow-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-brand-500 dark:focus-visible:ring-offset-slate-900 ${
+        className={`group inline-flex items-center gap-3 rounded-xl px-6 py-3 font-semibold shadow-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-brand-500 focus-visible:ring-offset-slate-50 dark:focus-visible:ring-offset-ink-950 ${
           speaking
             ? "bg-rose-500 text-white hover:bg-rose-600 shadow-rose-500/30"
             : "border-2 border-brand-500 text-brand-600 dark:text-brand-400 hover:bg-brand-500 hover:text-white hover:shadow-brand-500/30"

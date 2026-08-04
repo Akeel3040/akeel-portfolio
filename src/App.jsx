@@ -14,7 +14,7 @@ export default function App() {
   const [darkMode, toggleTheme] = useDarkMode();
 
   return (
-    <div className="min-h-screen bg-white dark:bg-ink-950 text-slate-800 dark:text-slate-200 transition-colors duration-300">
+    <div className="min-h-screen bg-slate-50 dark:bg-ink-950 text-slate-800 dark:text-slate-200 transition-colors duration-300">
       <a
         href="#about"
         className="sr-only focus:not-sr-only focus:absolute focus:z-[60] focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:rounded-lg focus:bg-brand-600 focus:text-white"

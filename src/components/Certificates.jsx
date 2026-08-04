@@ -4,7 +4,7 @@ import { CertificateIcon, ExternalLinkIcon } from "./Icons";
 
 export default function Certificates() {
   return (
-    <Section id="certificates" className="py-20 bg-slate-50 dark:bg-white/[0.02]">
+    <Section id="certificates" className="py-20 bg-blue-50 dark:bg-white/[0.02]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <SectionHeading
           eyebrow="Verified learning"

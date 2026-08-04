@@ -55,7 +55,7 @@ export default function Contact() {
     "w-full p-4 rounded-xl border border-slate-300 dark:border-white/10 bg-white dark:bg-white/5 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition";
 
   return (
-    <Section id="contact" className="py-20 bg-slate-50 dark:bg-white/[0.02]">
+    <Section id="contact" className="py-20 bg-blue-50 dark:bg-white/[0.02]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <SectionHeading
           eyebrow="Let's talk"

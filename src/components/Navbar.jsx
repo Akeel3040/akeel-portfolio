@@ -24,7 +24,7 @@ export default function Navbar({ darkMode, onToggleTheme }) {
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/80 dark:bg-ink-950/80 backdrop-blur-lg border-b border-slate-200/70 dark:border-white/10 shadow-sm"
+          ? "bg-slate-50/85 dark:bg-ink-950/80 backdrop-blur-lg border-b border-slate-200/70 dark:border-white/10 shadow-sm"
           : "bg-transparent"
       }`}
     >
@@ -102,7 +102,7 @@ export default function Navbar({ darkMode, onToggleTheme }) {
       </nav>
 
       {menuOpen && (
-        <div className="md:hidden border-t border-slate-200 dark:border-white/10 bg-white dark:bg-ink-950">
+        <div className="md:hidden border-t border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-ink-950">
           <ul className="px-4 py-3 space-y-1">
             {navLinks.map((link) => (
               <li key={link.href}>
